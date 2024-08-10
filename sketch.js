@@ -1,14 +1,25 @@
 function setup() {
+
   createCanvas(400, 400);
+
   background("white")
+
 }
 
-functionf draw() {
-  stroke("blue");
-  fill("red");
+function draw() {
+
+  stroke("black");
   
+
+ fill("pink")
+
   
+
+  
+
   if (mouseIsPressed) {
-    rect(mouseX, mouseY, 20, 35);
+
+    circle(mouseX, mouseY, 20, 35);
+
   }
 }
